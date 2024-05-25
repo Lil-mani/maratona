@@ -1,0 +1,7 @@
+notas = list(map(float,input().split()))
+minimo = min(notas)
+maximo = max(notas)
+notas.remove(minimo)
+notas.remove(maximo)
+media = sum(notas)
+print(round(media,1))
